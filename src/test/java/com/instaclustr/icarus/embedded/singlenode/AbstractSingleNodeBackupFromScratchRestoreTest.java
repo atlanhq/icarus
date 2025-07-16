@@ -158,7 +158,8 @@ public abstract class AbstractSingleNodeBackupFromScratchRestoreTest extends Abs
                 new RetrySpec(10, RetrySpec.RetryStrategy.EXPONENTIAL, 3, true), // retry
                 false, // skip refreshing
                 dataDirs,
-                null
+                null,
+                false // gcpUniformBucketLevelAccess
         );
     }
 

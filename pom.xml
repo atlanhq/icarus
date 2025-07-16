@@ -13,7 +13,7 @@
 
     <properties>
         <instaclustr.sidecar.common.version>2.0.0</instaclustr.sidecar.common.version>
-        <instaclustr.esop.version>3.0.1</instaclustr.esop.version>
+        <instaclustr.esop.version>3.0.1-atlan.1</instaclustr.esop.version>
 
         <testng.version>7.5</testng.version>
         <mockito.version>2.23.4</mockito.version>

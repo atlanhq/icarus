@@ -47,7 +47,8 @@ public class BackupRestoreOperationTest extends AbstractCassandraIcarusTest {
                     null, // retry
                     false, // skip refreshing
                     dataDirs,
-                    null
+                    null,
+                    false // gcpUniformBucketLevelAccess
             );
 
             final OperationResult<BackupOperation> result = icarusHolder.icarusClient.backup(backupOperationRequest);

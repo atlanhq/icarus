@@ -50,7 +50,8 @@ public class SingleNodeDistributedBackupRestoreTest extends AbstractCassandraIca
                 null, // retry
                 false, // skip refreshing
                 dataDirs, // cassandra dir
-                null // kms
+                null, // kms
+                false // gcpUniformBucketLevelAccess
         );
     }
 
