@@ -73,15 +73,19 @@
         <url>git://github.com/instaclustr/instaclustr-icarus.git</url>
     </scm>
 
+    <repositories>
+        <repository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/atlanhq/esop</url>
+        </repository>
+    </repositories>
+
     <distributionManagement>
         <repository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/atlanhq/icarus</url>
         </repository>
-        <snapshotRepository>
-            <id>nexus-snapshots</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
-        </snapshotRepository>
     </distributionManagement>
 
     <dependencies>
